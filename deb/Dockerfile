@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM debian:bookworm
 # LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
 LABEL maintainer="Andrei Moldovan <dev@andrei.me.uk>"
 
