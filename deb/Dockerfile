@@ -1,5 +1,6 @@
 FROM ubuntu:jammy
-LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
+# LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
+LABEL maintainer="Andrei Moldovan <dev@andrei.me.uk>"
 
 EXPOSE 25/tcp
 EXPOSE 143/tcp
