@@ -72,3 +72,4 @@ jobs:
             ${{ steps.repo.outputs.repo }}:${{ steps.version.outputs.version }}-build
           labels: ${{ steps.docker_meta.outputs.labels }}
           push: ${{ github.event_name != 'pull_request' }}
+
