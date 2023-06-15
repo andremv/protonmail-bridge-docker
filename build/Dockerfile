@@ -1,5 +1,5 @@
 # Use carlosedp/golang for riscv64 support
-FROM docker.io/golang:1.18 AS build
+FROM golang:1.20 AS build
 
 # Install dependencies
 RUN apt-get update && apt-get install -y git build-essential libsecret-1-dev
